@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/photo_nav_graph"
+    app:startDestination="@id/photoFragment">
+
+    <fragment
+        android:id="@+id/photoFragment"
+        android:name="com.example.photoslibrary.fragments.PhotoFragment"
+        android:label="PhotoFragment" >
+        <action
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            android:id="@+id/action_photoFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.photoslibrary.fragments.FavoriteFragment"
+        android:label="FavoriteFragment" >
+        <action
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            android:id="@+id/action_favoriteFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.photoslibrary.fragments.DetailFragment"
+        android:label="DetailFragment" >
+        <argument
+            android:name="detail"
+            app:argType="com.example.photoslibrary.model.Photo" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.photoslibrary.fragments.InfoFragment"
+        android:label="InfoFragment" />
+</navigation>

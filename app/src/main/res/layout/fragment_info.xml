@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <TextView
+           android:text="@string/develop"
+           android:textStyle="italic"
+           android:textSize="25sp"
+           android:padding="4dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/fio"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="2dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/phone_number"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="2dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/library"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/constrain"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/lifecycle"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/room"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/kotlin"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/retrofit"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/navigation"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/picasso"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/card_view"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/swipe"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/material"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/recycler"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

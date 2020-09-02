@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Photos Library</string>
+
+    <string name="text_view">PHOTO</string>
+
+    <string name="photo">Library Photos</string>
+    <string name="favorite">Favorite</string>
+    <string name="info">Info</string>
+
+    <string name="splash">PHOTO APP</string>
+    <string name="todo">TODO</string>
+
+    <string name="develop">Информация о разработчике:</string>
+    <string name="fio">фио:Заворотнюк О.В.</string>
+    <string name="phone_number">тел:8(978)06 99 338</string>
+    <string name="library">Список библиотек:</string>
+
+    <string name="constrain">1:.constraintlayout:constraintlayout:1.1.3</string>
+    <string name="lifecycle">2:.lifecycle:lifecycle-viewmodel-ktx:2.2.0</string>
+    <string name="room">3:.room:room-ktx:2.2.5</string>
+    <string name="kotlin">4: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.5</string>
+    <string name="retrofit">5: com.squareup.retrofit2:retrofit:2.6.0</string>
+    <string name="navigation">6:.navigation:navigation-fragment-ktx:2.3.0</string>
+    <string name="picasso">7: com.squareup.picasso:picasso:2.5.2</string>
+    <string name="card_view">8:.cardview:cardview:1.0.0</string>
+    <string name="swipe">9: .swiperefreshlayout:swiperefreshlayout:1.1.0</string>
+    <string name="material">10:com.google.android.material:material:1.2.0</string>
+    <string name="recycler">11:.recyclerview:recyclerview:1.1.0</string>
+
+    <string name="title">Title</string>
+
+</resources>
